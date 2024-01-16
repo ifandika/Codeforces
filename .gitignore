@@ -1,0 +1,3 @@
+# For all .class file
+*/*.class
+*.class
