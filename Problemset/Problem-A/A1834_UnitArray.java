@@ -1,9 +1,14 @@
 import java.util.*;
 import java.net.*;
 import java.io.*;
-
-public class UnitArray {
-
+/**
+ * Author: Maulana Ifandika
+ * Problem:
+ * - https://codeforces.com/problemset/problem/2027/C
+ * Solution:
+ * 
+ */
+public class A1834_UnitArray {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
