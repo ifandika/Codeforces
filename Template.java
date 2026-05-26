@@ -4,25 +4,27 @@ import java.io.*;
 import java.math.*;
 
 public class Template {
+  public static final double PI_NUMBER = 3.14159265359;
+  static Scanner scanner = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+  static void println(Object o) {
+    System.out.println(o);
+  }
 
-		int testCase = scanner.nextInt();
-		while(testCase-- > 0) {
-			
-			// ...
-			
-		}
-		scanner.close();
-	}
+  static void printNumArr2D(int[] n) {
+    for (var t : n) {
+      System.out.print(t + " ");
+    }
+    System.out.println();
+  }
 
-	static void println(Object o) { System.out.println(o); }
+  public static void main(String[] args) {
+    int testCase = scanner.nextInt();
+    while (testCase-- > 0) {
+      // ...
 
-	static void printNumArr2D(int[] n) {
-		for(var t : n) {
-			System.out.print(t+" ");
-		}
-		System.out.println();
-	}
+    }
+
+    scanner.close();
+  }
 }
